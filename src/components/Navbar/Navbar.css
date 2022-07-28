@@ -1,6 +1,6 @@
 nav{
     display: flex;
-    background-color: rgb(24, 97, 97);
+    background-color: rgb(0, 2, 2);
     width: 100%;
     position: fixed;
     top: 0;
@@ -32,8 +32,8 @@ li{
 
 /*--- Animaciones ---*/
 
-li:hover{
-    background-color: rgb(27, 122, 122);
+.lista:hover{
+    background-color: rgb(57, 57, 57);
 }
 
 img{

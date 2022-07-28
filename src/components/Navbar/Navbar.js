@@ -8,9 +8,9 @@ const Navbar = () =>{
             <h2>E-Commerce</h2>
             </div>
             <div className="sections">
-                <li>Productos</li>
-                <li>Promociones</li>
-                <li>Envíos</li>
+                <li className='lista'>Productos</li>
+                <li className='lista'>Promociones</li>
+                <li className='lista'>Envíos</li>
             </div>
             <Cart />
         </nav>

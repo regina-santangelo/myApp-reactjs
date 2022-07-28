@@ -16,7 +16,7 @@ const Counter = ({stock, initial, onAdd})=>{
         }
     }
 
-    return(
+    /*return(
         <div className="counter">
             <div className="counter2"><button className="boton" onClick={decrement}>-</button>
             <p className="number">{count}</p>
@@ -24,7 +24,7 @@ const Counter = ({stock, initial, onAdd})=>{
             
             <button className="agregar" onClick={()=>onAdd(count)}>Agregar al carrito</button>
         </div>
-    )
+    )*/
 }
 
 export default Counter
