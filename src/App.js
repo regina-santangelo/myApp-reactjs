@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import Counter from './components/Counter/Counter';
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 
 function App() {
 
@@ -15,7 +16,9 @@ function App() {
         <Navbar/>
         <ItemListContainer greeting="Bienvenido a mi E-Commerce en desarrollo :)" />
         <Counter stock={11} initial={1} onAdd={handleOnAdd}/>
+        
       </header>
+      <ItemDetailContainer />
     </div>
     
   );
